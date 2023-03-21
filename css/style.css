@@ -1,10 +1,26 @@
 .navbar {
-  background-color: #be3144;
+  background: #be3144;
   display: flex;
-  justify-content: flex-end;
   position: fixed;
   width: 100%;
   box-shadow: 0 2px 0 #0006;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-right: 40px;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
 }
 
 .himimic {
@@ -40,4 +56,37 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+.myprojects {
+  background: #45567d;
+  text-align: center;
+  height: 40rem;
+  padding: 20px 5px;
+  box-sizing: inherit;
+}
+
+.developer {
+  font-style: italic;
+  color: #be3144;
+  font-size: 20px;
+}
+
+.mimic {
+  font-size: 50px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.card {
+  width: 25rem;
+  height: 18rem;
 }
