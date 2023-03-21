@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #be3144;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 0 #0006;
+}
+
+.himimic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  background-color: #3a3d40;
+  color: #fff;
+}
+
+.together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  background-color: #3a3d40;
+  color: #fff;
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  background: #303841;
+  border-top: 4px solid #be3144;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.footer-text {
+  color: #fff;
+}
